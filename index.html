@@ -603,8 +603,10 @@ body::before{background:var(--blue)}
 @media (min-width:861px){.prrow{grid-template-columns:minmax(0,1fr) minmax(220px,300px)}}
 
 .hand .car{position:relative;display:inline-block}
-.hand .car::after{content:"v";position:absolute;left:54%;top:-.36em;font-size:.5em;line-height:1;transform:translateX(-50%)}
-@media (min-width:1001px){.pillars li.set{grid-template-columns:minmax(0,270px) 150px;column-gap:28px;justify-content:start}.pillars li.set .stk{justify-self:start;max-width:136px}}
+.hand .car::after{content:"v";position:absolute;left:56%;top:-.2em;font-size:.36em;line-height:1;transform:translateX(-50%)}
+@media (min-width:1001px){.pillars li.set{grid-template-columns:fit-content(250px) 136px;column-gap:18px;justify-content:start}.pillars li.set .stk{justify-self:start;max-width:136px;margin-top:-4px}}
+
+html,body{overflow-x:clip}
 </style>
 
 </head>
