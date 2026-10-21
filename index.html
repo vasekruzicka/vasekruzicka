@@ -601,6 +601,10 @@ body::before{background:var(--blue)}
 .prl .prw{margin:var(--s2) 0 0}.prrow{margin-bottom:var(--s2)}.pillars li.set .stk{max-width:124px}
 @media (min-width:861px){.prrow{align-items:stretch}.prl{display:flex;flex-direction:column;justify-content:space-between;gap:var(--s2)}.prl .prw{margin:0}}@media (max-width:860px){.prl{display:contents}.prrow .prc{order:1}.prrow .prstk{order:2;margin-bottom:8px}.prrow .prw{order:3;margin:var(--s1) 0 0}}
 @media (min-width:861px){.prrow{grid-template-columns:minmax(0,1fr) minmax(220px,300px)}}
+
+.hand .car{position:relative;display:inline-block}
+.hand .car::after{content:"v";position:absolute;left:54%;top:-.36em;font-size:.5em;line-height:1;transform:translateX(-50%)}
+@media (min-width:1001px){.pillars li.set{grid-template-columns:minmax(0,270px) 150px;column-gap:28px;justify-content:start}.pillars li.set .stk{justify-self:start;max-width:136px}}
 </style>
 
 </head>
@@ -908,5 +912,3 @@ body::before{background:var(--blue)}
 
 </body>
 </html>
-
-<!-- deployed from GitHub -->
