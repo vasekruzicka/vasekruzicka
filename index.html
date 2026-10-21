@@ -607,6 +607,13 @@ body::before{background:var(--blue)}
 @media (min-width:1001px){.pillars li.set{grid-template-columns:fit-content(250px) 136px;column-gap:18px;justify-content:start}.pillars li.set .stk{justify-self:start;max-width:136px;margin-top:-4px}}
 
 html,body{overflow-x:clip}
+
+.how li.ph{display:none}
+@media (min-width:1001px){.pillars li.set{display:grid;grid-column:auto;grid-template-columns:1fr;grid-template-rows:none}.pillars li.set .stk{display:none}
+.how li.ph{display:flex;counter-increment:none;border-top:0;padding-top:0;align-items:flex-start;justify-content:flex-start}
+.how li.ph .stk{width:150px;max-width:150px;transform:rotate(4deg);padding:5px;margin-top:-6px}}
+
+.hand .hp{margin-left:-.04em;position:relative;top:-.16em}
 </style>
 
 </head>
@@ -722,7 +729,7 @@ html,body{overflow-x:clip}
 <article class="tile vt">
         <div class="vwrap"><video src="vid/sriracha.mp4" poster="img/p-sriracha2.jpg" controls playsinline preload="none" style="object-position:center 40%"></video><span class="stat">81k views</span></div>
         <div class="row"><h3>The word nobody owns</h3><span class="kicker">Vilgain</span></div>
-        <p>Why almost any chilli sauce can call itself sriracha.</p><p class="tnote hand">by the way, I love sriracha. I put it on everything.</p><dl class="tinfo"><dt>Idea</dt><dd>The founder of the most famous sriracha never trademarked the word. So anyone can make one, including us.</dd><dt>Me</dt><dd>Script</dd></dl><div class="posts"><a class="post" href="https://www.instagram.com/reel/Db2fWg-AaKC/" target="_blank" rel="noopener">Instagram ↗</a></div>
+        <p>Why almost any chilli sauce can call itself sriracha.</p><p class="tnote hand">by the way, I love sriracha<span class="hp">.</span> I put it on everything<span class="hp">.</span></p><dl class="tinfo"><dt>Idea</dt><dd>The founder of the most famous sriracha never trademarked the word. So anyone can make one, including us.</dd><dt>Me</dt><dd>Script</dd></dl><div class="posts"><a class="post" href="https://www.instagram.com/reel/Db2fWg-AaKC/" target="_blank" rel="noopener">Instagram ↗</a></div>
       </article>
 <article class="tile vt">
         <div class="vwrap"><video src="vid/cebia.mp4" poster="img/p-cebia.jpg" controls playsinline preload="none" style="object-position:center 35%"></video><span class="stat">113k views · top video</span></div>
@@ -759,7 +766,7 @@ html,body{overflow-x:clip}
 <details class="sec" id="ooh">
   <summary><span class="wrap sumrow"><span class="n">03</span><span class="big st">OOH &amp; copy <span class="hand">out of home</span></span><span class="pm" aria-hidden="true"></span></span></summary>
   <div class="secbody oohbody"><div class="wrap">
-    <div class="copyrow"><div class="cpt"><p class="cl1">Copy is just listening, <span class="hand">written down.</span></p>
+    <div class="copyrow"><div class="cpt"><p class="cl1">Copy is just listening, <span class="hand">written down<span class="hp">.</span></span></p>
     <p class="cl2">Before I write a word I want <b>the insight</b>: who's reading, what they already believe, and <b>the words they'd use themselves</b>. Someone behind the wheel gets <b>three seconds</b> with a billboard. Someone walking past a citylight gets <b>a few steps</b>. Someone scrolling gets <b>one beat</b> of a caption or on‑screen text. So every line has to feel like it was written <b>for one person, in that place, at that moment</b>.</p></div>
 <button class="tile o fb" type="button"><span class="art"><img src="img/v-forbes-ad-hi.jpg" alt="Vilgain print ad: health is the real wealth" loading="lazy"></span><span class="memo2 hand">ad in Forbes</span><template class="more"><div class="media"><img src="img/v-forbes-ad-hi.jpg" alt="Forbes ad: health is the real wealth"></div><span class="kicker">Vilgain · print</span><h3>Health is the real wealth</h3></template></button>
 </div>
@@ -847,7 +854,7 @@ html,body{overflow-x:clip}
         <li><b>The look</b><span>Visualising the direction and briefing the designer, so the pitch lands exactly as imagined and looks good doing it.</span></li>
         <li><b>Faces, places and props</b><span>Casting, scouting and styling. Finding the faces, spaces and details that make the story real.</span></li>
         <li class="set"><b>The set</b><span>Directing on set: standing between the monitor and the camera to bring the vision home.</span><img class="stk" src="img/stageonmars-b.jpg" alt="Behind the scenes on a purple-lit interview set I produced" loading="lazy"></li>
-        <li><b>The final cut</b><span>Guiding post‑production. Sitting in the edit until every frame hits, right up to release.</span></li>
+        <li class="ph" aria-hidden="true"><img class="stk" src="img/stageonmars-b.jpg" alt="" loading="lazy"></li><li><b>The final cut</b><span>Guiding post‑production. Sitting in the edit until every frame hits, right up to release.</span></li>
       </ol>
     <div class="toolkit"><span class="kicker">Toolkit</span><p>CapCut · Frame.io · Logic Pro · Figma · Canva · ClickUp · Notion · Slack · Sprinklr · Mediaboard · AI tools</p></div>
   </div>
